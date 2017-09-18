@@ -1,0 +1,101 @@
+loginpage.css
+DETAILS
+ACTIVITY
+Yesterday
+Wed 1:27 PM
+
+Mark Rusmantijo uploaded an item
+Style Sheet
+loginpage.css
+No recorded activity before September 13, 2017
+All selections cleared All selections cleared All selections cleared All selections cleared All selections cleared
+/* --------------------------------------------------------*/
+/* Login Page */
+/* --------------------------------------------------------*/
+body{
+    background-color:whitesmoke;    
+}
+form {
+    width: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 2px #D3D3D3;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    padding-top: 50px;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 30%;
+   
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 30px;
+}
+
+    a:link {
+        text-decoration: none;
+    }
+    
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/* --------------------------------------------------------*/
+/* Error file */
+/* --------------------------------------------------------*/
+
+.error {
+	width: 50%; 
+	margin: 10px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
