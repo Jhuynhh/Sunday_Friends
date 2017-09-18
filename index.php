@@ -4,7 +4,7 @@ include('server.php');
 
 <html>
 <head>
-    <title> Sunday Friends</title>
+    <title> Sunday Friends Test</title>
       <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
 </head>
             
